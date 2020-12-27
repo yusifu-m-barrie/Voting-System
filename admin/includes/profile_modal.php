@@ -13,7 +13,7 @@
                   	<label for="username" class="col-sm-3 control-label">Username</label>
 
                   	<div class="col-sm-9">
-                    	<input type="text" class="form-control" id="username" name="username" value="<?php echo $user['username']; ?>">
+                    	<input type="text" class="form-control" id="username" name="username" value="<?php echo $user['username']; ?>" pattern="[A-Za-z]{1,32}" required="">
                   	</div>
                 </div>
                 <div class="form-group">
@@ -27,7 +27,7 @@
                   	<label for="firstname" class="col-sm-3 control-label">Firstname</label>
 
                   	<div class="col-sm-9">
-                    	<input type="text" class="form-control" id="firstname" name="firstname" value="<?php echo $user['firstname']; ?>">
+                    	<input type="text" class="form-control" id="firstname" name="firstname" value="<?php echo $user['firstname']; ?>" pattern="[A-Za-z]{1,32}" required="">
                   	</div>
                 </div>
                 <div class="form-group">

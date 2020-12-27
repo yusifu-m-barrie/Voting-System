@@ -32,14 +32,14 @@
                     <label for="firstname" class="col-sm-3 control-label">Firstname</label>
 
                     <div class="col-sm-9">
-                      <input type="text" class="form-control" id="firstname" name="firstname" required>
+                      <input type="text" class="form-control" id="firstname" name="firstname" pattern="[A-Za-z]{1,32}" required="">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="lastname" class="col-sm-3 control-label">Lastname</label>
 
                     <div class="col-sm-9">
-                      <input type="text" class="form-control" id="lastname" name="lastname" required>
+                      <input type="text" class="form-control" id="lastname" name="lastname" pattern="[A-Za-z]{1,32}" required="">
                     </div>
                 </div>
                 <div class="form-group">
