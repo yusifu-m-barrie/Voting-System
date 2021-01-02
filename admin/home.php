@@ -132,7 +132,10 @@
         <div class="col-xs-12">
           <h3>Votes Tally
             <span class="pull-right">
-              <a href="print.php" class="btn btn-success btn-sm btn-flat"><span class="glyphicon glyphicon-print"></span> Print</a>
+              <a href="report.php" class="btn btn-success btn-sm btn-flat"><span class="fa-file"></span>Report</a>
+              &nbsp;
+			&nbsp;
+             <button type="button" onclick="window.print();" style = "margin-right:14px;" id ="print" class = "pull-right btn btn-success btn-sm btn-flat"><i class="glyphicon glyphicon-print"></i> Print</button>
             </span>
           </h3>
         </div>
