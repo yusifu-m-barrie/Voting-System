@@ -11,6 +11,7 @@
  */
 html,
 body {
+  background-image: url('/images/vote.png');
   height: 100%;
 }
 .layout-boxed html,
@@ -18,6 +19,7 @@ body {
   height: 100%;
 }
 body {
+  background-image: url('/images/vote.png');
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
@@ -3394,7 +3396,7 @@ table.text-center th {
 }
 .login-page,
 .register-page {
-  background: #d2d6de;
+  background-image: url('/images/vote.png');
 }
 .login-box,
 .register-box {

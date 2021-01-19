@@ -11,8 +11,6 @@
     }
 ?>
 <?php include 'includes/header.php'; ?>
-
-
 <body class="hold-transition login-page">
 <div class="login-box">
   	<div class="login-logo">
@@ -35,11 +33,21 @@
     			<div class="col-xs-4">
           			<button type="submit" class="btn btn-primary btn-block btn-flat" name="login"><i class="fa fa-sign-in"></i> Sign In</button>
 					<a href="admin" button type="submit" class="btn btn-primary btn-block btn-flat">Admin</a></button>
-					<a href="dashboard" button type="submit" class="btn btn-primary btn-block btn-flat">Dashboard</a></button>
+					<a href="dashboard.php" button type="submit" class="btn btn-primary btn-block btn-flat">Dashboard</a></button>
         		</div>
       		</div>
     	</form>
   	</div>
+	  <?php
+  		if(isset($_SESSION['error'])){
+  			echo "
+  				<div class='callout callout-danger text-center mt20'>
+			  		<p>".$_SESSION['error']."</p> 
+			  	</div>
+  			";
+  			unset($_SESSION['error']);
+  		}
+  	?>
 
 </div>
 </body>

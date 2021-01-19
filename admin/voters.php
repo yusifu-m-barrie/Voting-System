@@ -46,7 +46,9 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
+            <a href="download.php" class="btn btn-success"><i class="glyphicon glyphicon-save"></i> Import Data (csv exel file)</a>
               <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> New</a>
+  
             </div>
             <div class="box-body">
               <table id="example1" class="table table-bordered">
