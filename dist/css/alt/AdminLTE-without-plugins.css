@@ -3248,6 +3248,7 @@ table.text-center th {
 }
 .login-page,
 .register-page {
+  background-color: #fff;
   background-image: url('/images/vote.png');
 }
 .login-box,

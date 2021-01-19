@@ -11,6 +11,7 @@
  */
 html,
 body {
+  background-color: #fff;
   background-image: url('/images/vote.png');
   height: 100%;
 }
@@ -19,6 +20,7 @@ body {
   height: 100%;
 }
 body {
+  background-color: #fff;
   background-image: url('/images/vote.png');
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -3396,6 +3398,7 @@ table.text-center th {
 }
 .login-page,
 .register-page {
+  background-color: #fff;
   background-image: url('/images/vote.png');
 }
 .login-box,
