@@ -33,7 +33,6 @@
     			<div class="col-xs-4">
           			<button type="submit" class="btn btn-primary btn-block btn-flat" name="login"><i class="fa fa-sign-in"></i> Sign In</button>
 					<a href="admin" button type="submit" class="btn btn-primary btn-block btn-flat">Admin</a></button>
-					<a href="dashboard.php" button type="submit" class="btn btn-primary btn-block btn-flat">Dashboard</a></button>
         		</div>
       		</div>
     	</form>

@@ -9,21 +9,16 @@
  * Core: General Layout Style
  * -------------------------
  */
-html,
-body {
-  height: 100%;
-  background-image: url("vote.png");
-}
-.layout-boxed html,
-.layout-boxed body {
-  height: 100%;
-}
 body {
   background-image: url("vote.png");
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
+}
+.layout-boxed html,
+.layout-boxed body {
+  height: 100%;
 }
 /* Layout */
 .wrapper {
@@ -3248,8 +3243,8 @@ table.text-center th {
 }
 .login-page,
 .register-page {
-  background-color: #fff;
-  background-image: url('/images/vote.png');
+  background-image: url("./images/proff.png");
+  background-color: #ff0000;
 }
 .login-box,
 .register-box {
